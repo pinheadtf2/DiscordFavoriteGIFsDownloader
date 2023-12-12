@@ -16,6 +16,7 @@ GIFs will be placed in the `gifs` folder.
 # Troubleshooting
 ## Windows says Activate.ps1 cannot be loaded because running scripts is disabled
 Open a Powershell window as admin, and run this command:
+
 `Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted`
 
 ## Other Issues
